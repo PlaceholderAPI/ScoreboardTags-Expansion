@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ScoreboardTagsExpansion extends PlaceholderExpansion {
-    private final String VERSION = getClass().getPackage().getImplementationVersion();
 
     @Override
     public boolean canRegister() {
@@ -31,7 +30,7 @@ public class ScoreboardTagsExpansion extends PlaceholderExpansion {
 
     @Override
     public String getVersion() {
-        return VERSION;
+        return "version";
     }
 
     @Override
